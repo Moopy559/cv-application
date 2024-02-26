@@ -12,6 +12,13 @@ export default function Experience() {
         <input type="date" name="date-commenced" id="date-commenced" />
         <label>Date Completed</label>
         <input type="date" name="date-completed" id="date-completed" />
+        <label>Responsibilities</label>
+        <textarea
+          name="responsibilities"
+          id="responsibilities"
+          cols="30"
+          rows="3"
+        ></textarea>
         <button>Edit</button>
         <button>Submit</button>
       </form>
